@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>D&D Character Sheet</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Character Sheet</h1>
+
+    <div>
+      <label for="nameInput">Name:</label>
+      <input type="text" id="nameInput" />
+    </div>
+    
+    <div>
+      <label for="classInput">Class:</label>
+      <input type="text" id="classInput" />
+    </div>
+    
+    <div>
+      <label for="levelInput">Level:</label>
+      <input type="number" id="levelInput" />
+    </div>
+    
+    <div>
+      <label for="hitPointsInput">Hit Points:</label>
+      <input type="number" id="hitPointsInput" />
+    </div>
+    
+    <h2>Spells</h2>
+    
+    <div>
+      <input type="text" id="spellInput" placeholder="Spell Name" />
+      <input type="text" id="spellDescriptionInput" placeholder="Spell Description" />
+      <button id="addSpellBtn">Add Spell</button>
+    </div>
+    
+    <ul id="spellList"></ul>
+    
+    <h2>Equipment</h2>
+    
+    <div>
+      <input type="text" id="equipmentInput" placeholder="Equipment Name" />
+      <input type="text" id="equipmentDescriptionInput" placeholder="Equipment Description" />
+      <button id="addEquipmentBtn">Add Equipment</button>
+    </div>
+    
+    <ul id="equipmentList"></ul>
+    
+    <div>
+      <button id="saveButton">Save Character</button>
+      <button id="loadButton">Load Character</button>
+      <button id="deleteButton">Delete Character</button>
+    </div>
+    
+    <h2>Character Summary</h2>
+    
+    <div>
+      <strong>Name:</strong> <span id="characterName"></span>
+    </div>
+    
+    <div>
+      <strong>Class:</strong> <span id="characterClass"></span>
+    </div>
+    
+    <div>
+      <strong>Level:</strong> <span id="characterLevel"></span>
+    </div>
+    
+    <div>
+      <strong>Hit Points:</strong> <span id="characterHitPoints"></span>
+    </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

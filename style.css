@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 5px;
+  }
+  
+  #characterSummary,
+  #spellsSection,
+  #equipmentSection,
+  #buttonsSection {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
